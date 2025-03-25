@@ -1,6 +1,6 @@
-# Your Name 
-
-## Founder & Director, BDMS Community Services
+# Binaya K. Sharma
+## Founder & Director, 
+# BDMS Community Services
 
 📍 Darwin (NT) | Sydney (NSW)  
 📞 1300 108 512 | 08 89485753 | 0422683338   ✉️ info@bdmscommunityservices.com 
@@ -36,8 +36,3 @@ BDMS Community Services."]
 ## Visit our Website
 www.bdmscommunityservices.com.au
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing) ▋
