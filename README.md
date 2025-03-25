@@ -1,74 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CEO Business Profile - BDMS Community Services</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Binaya K Sharma | BDMS Community Services</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            width: 90%;
-            max-width: 800px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 30px auto;
-        }
-        .business-card {
-            width: 100%;
-            max-width: 400px;
-            margin: 20px auto;
-        }
-        .ceo-message {
-            font-size: 1.1em;
-            color: #555;
-            margin: 20px 0;
-        }
-        .contact-info {
-            margin-top: 20px;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        .social-links a {
-            margin: 0 10px;
-            color: #007bff;
-            text-decoration: none;
-            font-size: 1.5em;
-        }
-        .social-links a:hover {
-            color: #0056b3;
-        }
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+        a { color: #0066cc; text-decoration: none; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="business-card.jpg" alt="Business Card" class="business-card">
-        <h1>John Doe</h1>
-        <h3>Founder & CEO, BDMS Community Services</h3>
-        <p class="ceo-message"> "At BDMS Community Services, we are dedicated to delivering exceptional care and support. Our mission is to create a positive impact in the community, ensuring that everyone receives the quality care they deserve." </p>
+    <h1>Binaya k.Sharma</h1>
+    <h2>Founder & Director, BDMS Community Services</h2>
+    <p>📍 Darwin (NT) | Sydney (NSW)</p>
+    <p>📞 +61 XXX XXX XXX | ✉️ email@example.com</p>
+    
+    <h3>Connect with Me:</h3>
+    <ul>
+        <li><a href="https://www.facebook.com/BDMSCSNSW">Twitter/X</a></li>
+        <li><a href="https://linkedin.com/in/binay-kumar-sharma-1545539a/">LinkedIn</a></li>
+        <li><a href="https://youtube.com/@bdmscommunityservices8981">YouTube</a></li>
+        <li><a href="https://twitter.com/yourhandle">Twitter/X</a></li>
         
-        <div class="contact-info">
-            <p><i class="fas fa-phone"></i> +61 123 456 789</p>
-            <p><i class="fas fa-envelope"></i> ceo@bdmscommunity.com</p>
-            <p><i class="fas fa-globe"></i> <a href="https://bdmscommunity.com" target="_blank">www.bdmscommunity.com</a></p>
-            <p><i class="fas fa-map-marker-alt"></i> Sydney, NSW, Australia</p>
-        </div>
-        
-        <div class="social-links">
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-    </div>
+    </ul>
+
+    <h3>About BDMS:</h3>
+    <p>["Binaya K Sharma, Founder and Director of BDMS Community Services, is a dedicated advocate for individuals with disabilities. As an NDIS-registered provider, BDMS offers tailored support services for people with mental and physical disabilities, including specialized care for participants with high behavioral needs (BOC). Founded in 2019 and operating across Darwin (NT), and now Sydney (NSW), BDMS prioritizes core values of Quality, Choice, Control, Equality, Respect, and Dignity in every interaction. Under [Founder's Name]’s leadership, the organization empowers individuals to live independently, access resources, and thrive within their communities through compassionate, person-centered care.."]</p>
 </body>
 </html>
