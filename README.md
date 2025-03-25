@@ -3,186 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe | BDMS Community Services</title>
+    <title>CEO Business Profile - BDMS Community Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
-        :root {
-            --primary: #2A5C82;
-            --secondary: #5DA9E9;
-            --accent: #FF6B6B;
-        }
-
-        * {
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            line-height: 1.6;
-            background: #f8f9fa;
-            color: #333;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white;
-            padding: 4rem 2rem;
-            border-radius: 15px;
-            margin-bottom: 2rem;
+            background-color: #f4f4f4;
             text-align: center;
         }
-
-        .profile-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .digital-card {
-            background: white;
-            border-radius: 15px;
-            padding: 1rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .digital-card img {
-            width: 100%;
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #fff;
+            padding: 20px;
             border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
         }
-
-        .services {
-            background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            margin-top: 2rem;
-        }
-
-        .flyer-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .flyer-card {
-            border: 1px solid #eee;
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-
-        .flyer-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .flyer-card img {
+        .business-card {
             width: 100%;
-            height: 200px;
-            object-fit: cover;
+            max-width: 400px;
+            margin: 20px auto;
         }
-
-        .contact-bar {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin: 2rem 0;
-            flex-wrap: wrap;
+        .ceo-message {
+            font-size: 1.1em;
+            color: #555;
+            margin: 20px 0;
         }
-
-        .social-link {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--primary);
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #007bff;
             text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            background: rgba(255,255,255,0.9);
-            transition: all 0.3s ease;
+            font-size: 1.5em;
         }
-
-        .social-link:hover {
-            background: var(--primary);
-            color: white;
+        .social-links a:hover {
+            color: #0056b3;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="hero">
-            <h1>John Doe</h1>
-            <p>Founder & Director</p>
-            <h2>BDMS Community Services</h2>
-            <p>NDIS Registered Provider Since 2019</p>
+        <img src="business-card.jpg" alt="Business Card" class="business-card">
+        <h1>John Doe</h1>
+        <h3>Founder & CEO, BDMS Community Services</h3>
+        <p class="ceo-message"> "At BDMS Community Services, we are dedicated to delivering exceptional care and support. Our mission is to create a positive impact in the community, ensuring that everyone receives the quality care they deserve." </p>
+        
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +61 123 456 789</p>
+            <p><i class="fas fa-envelope"></i> ceo@bdmscommunity.com</p>
+            <p><i class="fas fa-globe"></i> <a href="https://bdmscommunity.com" target="_blank">www.bdmscommunity.com</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> Sydney, NSW, Australia</p>
         </div>
-
-        <div class="profile-grid">
-            <div class="digital-card">
-                <!-- Replace with your digital card image -->
-                <img src="digital-card.png" alt="Digital Visiting Card">
-            </div>
-
-            <div class="services">
-                <h3>Our Services</h3>
-                <ul>
-                    <li>Disability Support Services</li>
-                    <li>Behavioral Support (BOC)</li>
-                    <li>Community Participation</li>
-                    <li>Therapeutic Support</li>
-                </ul>
-
-                <div class="contact-bar">
-                    <a href="tel:+61123456789" class="social-link">📞 +61 123 456 789</a>
-                    <a href="mailto:contact@bdms.com" class="social-link">✉️ contact@bdms.com</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="flyer-gallery">
-            <!-- Add your flyer images -->
-            <div class="flyer-card">
-                <img src="service-flyer-1.jpg" alt="Services Flyer">
-                <div style="padding: 1rem;">
-                    <h4>Our Services</h4>
-                    <a href="services.pdf" download class="social-link">Download PDF</a>
-                </div>
-            </div>
-
-            <div class="flyer-card">
-                <img src="ndis-flyer.jpg" alt="NDIS Information">
-                <div style="padding: 1rem;">
-                    <h4>NDIS Guide</h4>
-                    <a href="ndis-guide.pdf" download class="social-link">Download PDF</a>
-                </div>
-            </div>
+        
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
-
-    <script>
-        // Simple animation on scroll
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = 1;
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        });
-
-        document.querySelectorAll('.flyer-card, .digital-card').forEach((el) => {
-            el.style.opacity = 0;
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'all 0.6s ease-out';
-            observer.observe(el);
-        });
-    </script>
 </body>
 </html>
