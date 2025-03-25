@@ -6,88 +6,81 @@
     <title>John Doe | BDMS Community Services</title>
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --accent-color: #e74c3c;
+            --primary: #2A5C82;
+            --secondary: #5DA9E9;
+            --accent: #FF6B6B;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             line-height: 1.6;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            color: var(--primary-color);
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            margin-bottom: 3rem;
             padding: 2rem;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        .profile-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid var(--secondary-color);
-        }
-
-        .contact-bar {
-            background: var(--primary-color);
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
             color: white;
-            padding: 1rem;
-            border-radius: 10px;
-            margin: 2rem 0;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .social-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        .social-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
+            padding: 4rem 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
             text-align: center;
         }
 
-        .social-card:hover {
-            transform: translateY(-5px);
+        .profile-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .digital-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1rem;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        .downloads-section {
-            margin: 3rem 0;
+        .digital-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .services {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 2rem;
         }
 
         .flyer-gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 1.5rem;
+            gap: 1.5rem;
+            margin-top: 2rem;
         }
 
         .flyer-card {
-            background: white;
+            border: 1px solid #eee;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .flyer-card:hover {
+            transform: translateY(-5px);
         }
 
         .flyer-card img {
@@ -96,93 +89,100 @@
             object-fit: cover;
         }
 
-        .flyer-card p {
-            padding: 1rem;
-            text-align: center;
+        .contact-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
         }
 
-        a {
-            color: var(--secondary-color);
-            font-weight: 500;
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            background: rgba(255,255,255,0.9);
+            transition: all 0.3s ease;
         }
 
-        h1 { color: var(--primary-color); }
-        h2 { color: var(--secondary-color); }
-        h3 { color: var(--accent-color); margin-top: 2rem; }
+        .social-link:hover {
+            background: var(--primary);
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <!-- 🔽 Upload your digital card to repository and update src -->
-        <img src="your-digital-card.png" alt="BDMS Digital Card" class="profile-img">
-        <div>
-            <h1>Binay K Sharma</h1>
-            <h2>Founder & Director</h2>
-            <p>BDMS Community Services</p>
-            <p>NDIS Registered Provider</p>
+    <div class="container">
+        <div class="hero">
+            <h1>John Doe</h1>
+            <p>Founder & Director</p>
+            <h2>BDMS Community Services</h2>
+            <p>NDIS Registered Provider Since 2019</p>
         </div>
-    </div>
 
-    <div class="contact-bar">
-        <div>📞 1300 108 512</div> <div>📞08 8948 5753</div> <div>📞0412447312</div>
-        <div>✉️ www.bdmscommunityservices.com.au</div>
-        <div>✉️ info@bdmscommunityservices.com.au</div>
-        <div>📍 Darwin | Sydney</div>
-    </div>
-
-    <div class="social-links">
-
-    <a href="https://www.facebook.com/BDMSCSNSW" class="social-card">
-            <h3>Facebook/X</h3>
-            <p> Connect with us</p>
-        </a>
-        
-        <a href="[https://linkedin.com/in/binay-kumar-sharma-1545539a/" class="social-card">
-            <h3>LinkedIn</h3>
-            <p>Connect Professionally</p>
-        </a>
-        <a href="https://youtube.com/@bdmscommunityservices8981" class="social-card">
-            <h3>YouTube</h3>
-            <p>Watch Our Videos</p>
-        </a>
-        
-    </div>
-
-    <div class="downloads-section">
-        <h3>Company Resources</h3>
-        <div class="flyer-gallery">
-            <!-- 🔽 Add your flyer images and update src -->
-            <div class="flyer-card">
-                <img src="service-flyer-1.jpg" alt="Our Services">
-                <p>Service Overview <a href="bdms-services.pdf" download>Download PDF</a></p>
+        <div class="profile-grid">
+            <div class="digital-card">
+                <!-- Replace with your digital card image -->
+                <img src="digital-card.png" alt="Digital Visiting Card">
             </div>
+
+            <div class="services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Disability Support Services</li>
+                    <li>Behavioral Support (BOC)</li>
+                    <li>Community Participation</li>
+                    <li>Therapeutic Support</li>
+                </ul>
+
+                <div class="contact-bar">
+                    <a href="tel:+61123456789" class="social-link">📞 +61 123 456 789</a>
+                    <a href="mailto:contact@bdms.com" class="social-link">✉️ contact@bdms.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flyer-gallery">
+            <!-- Add your flyer images -->
             <div class="flyer-card">
-                <img src="ndis-flyer-2.jpg" alt="NDIS Information">
-                <p>NDIS Guide <a href="ndis-guide.pdf" download>Download PDF</a></p>
+                <img src="service-flyer-1.jpg" alt="Services Flyer">
+                <div style="padding: 1rem;">
+                    <h4>Our Services</h4>
+                    <a href="services.pdf" download class="social-link">Download PDF</a>
+                </div>
+            </div>
+
+            <div class="flyer-card">
+                <img src="ndis-flyer.jpg" alt="NDIS Information">
+                <div style="padding: 1rem;">
+                    <h4>NDIS Guide</h4>
+                    <a href="ndis-guide.pdf" download class="social-link">Download PDF</a>
+                </div>
             </div>
         </div>
     </div>
 
     <script>
-        // Simple smooth scroll behavior
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+        // Simple animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
             });
         });
 
-        // Add current year to footer
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('current-year').textContent = new Date().getFullYear();
+        document.querySelectorAll('.flyer-card, .digital-card').forEach((el) => {
+            el.style.opacity = 0;
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
         });
     </script>
-
-    <!-- Add this footer section before </body> -->
-    <footer style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--primary-color); color: white; border-radius: 10px;">
-        <p>© <span id="current-year">2023</span> BDMS Community Services. All rights reserved.</p>
-    </footer>
 </body>
 </html>
