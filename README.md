@@ -1,67 +1,188 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | BDMS Community Services</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+        }
 
-###
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            color: var(--primary-color);
+        }
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-</div>
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
 
-###
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--secondary-color);
+        }
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=maurodesouza.maurodesouza&"  />
-</div>
+        .contact-bar {
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
 
-###
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
 
-<h1 align="center">hey there 👋</h1>
+        .social-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
 
-###
+        .social-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
 
-<h3 align="left">👩‍💻  About Me</h3>
+        .downloads-section {
+            margin: 3rem 0;
+        }
 
-###
+        .flyer-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
 
-<p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
+        .flyer-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
 
-###
+        .flyer-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
 
-<h3 align="left">🛠 Language and tools</h3>
+        .flyer-card p {
+            padding: 1rem;
+            text-align: center;
+        }
 
-###
+        a {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="40" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height="40" alt="ruby logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" height="40" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" height="40" alt="circleci logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
-</div>
+        h1 { color: var(--primary-color); }
+        h2 { color: var(--secondary-color); }
+        h3 { color: var(--accent-color); margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- 🔽 Upload your digital card to repository and update src -->
+        <img src="your-digital-card.png" alt="BDMS Digital Card" class="profile-img">
+        <div>
+            <h1>Binay K Sharma</h1>
+            <h2>Founder & Director</h2>
+            <p>BDMS Community Services</p>
+            <p>NDIS Registered Provider</p>
+        </div>
+    </div>
 
-###
+    <div class="contact-bar">
+        <div>📞 1300 108 512</div> <div>📞08 8948 5753</div> <div>📞0412447312</div>
+        <div>✉️ www.bdmscommunityservices.com.au</div>
+        <div>✉️ info@bdmscommunityservices.com.au</div>
+        <div>📍 Darwin | Sydney</div>
+    </div>
 
-<h3 align="left">🔥   My Stats :</h3>
+    <div class="social-links">
 
-###
+    <a href="https://www.facebook.com/BDMSCSNSW" class="social-card">
+            <h3>Facebook/X</h3>
+            <p> Connect with us</p>
+        </a>
+        
+        <a href="[https://linkedin.com/in/binay-kumar-sharma-1545539a/" class="social-card">
+            <h3>LinkedIn</h3>
+            <p>Connect Professionally</p>
+        </a>
+        <a href="https://youtube.com/@bdmscommunityservices8981" class="social-card">
+            <h3>YouTube</h3>
+            <p>Watch Our Videos</p>
+        </a>
+        
+    </div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+    <div class="downloads-section">
+        <h3>Company Resources</h3>
+        <div class="flyer-gallery">
+            <!-- 🔽 Add your flyer images and update src -->
+            <div class="flyer-card">
+                <img src="service-flyer-1.jpg" alt="Our Services">
+                <p>Service Overview <a href="bdms-services.pdf" download>Download PDF</a></p>
+            </div>
+            <div class="flyer-card">
+                <img src="ndis-flyer-2.jpg" alt="NDIS Information">
+                <p>NDIS Guide <a href="ndis-guide.pdf" download>Download PDF</a></p>
+            </div>
+        </div>
+    </div>
 
-###
+    <script>
+        // Simple smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add current year to footer
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+
+    <!-- Add this footer section before </body> -->
+    <footer style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--primary-color); color: white; border-radius: 10px;">
+        <p>© <span id="current-year">2023</span> BDMS Community Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
