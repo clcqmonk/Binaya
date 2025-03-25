@@ -1,3 +1,13 @@
+# Welcome to my profile !
+
+![Card](card_ceo.png)
+
+[Download Company Brochure](docs/overview.pdf)
+
+<!-- Other content of the README -->
+
+
+
 # Binaya K. Sharma
 ## Founder & Director, 
 # BDMS Community Services
