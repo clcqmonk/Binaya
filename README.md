@@ -1,6 +1,6 @@
-# Your Name 
-
-## Founder & Director, BDMS Community Services
+# Binaya K Sharma
+## Founder & Director, 
+# BDMS Community Services
 
 📍 Darwin (NT) | Sydney (NSW)  
 📞 1300 108 512 | 08 89485753 | 0422683338   ✉️ info@bdmscommunityservices.com 
@@ -17,7 +17,7 @@
 
 ## Message From CEO
 
-["Dear Friends & Partners,
+"Dear Friends & Partners,
 
 At BDMS Community Services, our values – Quality, Choice, Control, Equality, Respect, and Dignity – aren’t just ideas. They’re the heartbeat of everything we do.
 
@@ -30,14 +30,9 @@ To our stakeholders: Thank you for walking this journey with us. Together, we’
 With gratitude,
 Sagar Pathak
 Founder & Director
-BDMS Community Services."]
+BDMS Community Services."
 
 ---
 ## Visit our Website
 www.bdmscommunityservices.com.au
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing) ▋
