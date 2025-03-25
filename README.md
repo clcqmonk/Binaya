@@ -2,7 +2,7 @@
 
 ![Card](card_ceo.png)
 
-[Download Company Brochure](docs/overview.pdf)
+[Download Company Brochure](New_Brochure_Bdms_12_2024.pdf)
 
 <!-- Other content of the README -->
 
