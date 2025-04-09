@@ -1,4 +1,4 @@
-# Binaya K Sharma
+# Binaya Kumar Sharma
 ## Founder & Director, 
 # BDMS Community Services
 
