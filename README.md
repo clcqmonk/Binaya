@@ -8,7 +8,7 @@
 
 
 
-# Binaya K. Sharma
+# Binaya Kumar Sharma
 ## Founder & Director, 
 # BDMS Community Services
 
@@ -27,7 +27,7 @@
 
 ## Message From CEO
 
-["Dear Friends & Partners,
+Dear Friends & Partners,
 
 At BDMS Community Services, our values – Quality, Choice, Control, Equality, Respect, and Dignity – aren’t just ideas. They’re the heartbeat of everything we do.
 
@@ -38,9 +38,9 @@ As an NDIS-registered provider, we focus on personalized support for people with
 To our stakeholders: Thank you for walking this journey with us. Together, we’re creating a world where dignity isn’t a privilege – it’s a promise.
 
 With gratitude,
-Sagar Pathak
-Founder & Director
-BDMS Community Services."]
+Binaya Kumar Sharma
+Founder & Director,
+BDMS Community Services.
 
 ---
 ## Visit our Website
