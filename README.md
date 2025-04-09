@@ -38,7 +38,7 @@ As an NDIS-registered provider, we focus on personalized support for people with
 To our stakeholders: Thank you for walking this journey with us. Together, we’re creating a world where dignity isn’t a privilege – it’s a promise.
 
 With gratitude,
-Binaya Kumar Sharma
+Binaya Kumar Sharma,
 Founder & Director,
 BDMS Community Services.
 
